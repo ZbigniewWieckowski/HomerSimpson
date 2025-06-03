@@ -38,20 +38,23 @@ class HomerSimpson:
                 break
 
             print(f"{self.name} ... working")
+            print(random.choice(self.catchphrases))
 
             try:
 
                 if random.random() < 0.05:
-                    alert = True
                     print(f"{self.name} noticed a safety hazard at the plant!")
-                    raise NuclearMeltdownException("Oh no!")
-
+                    raise NuclearMeltdownException("Oh no!")                
+            except NuclearMeltdownException:
+                alert = True
+            else:
+                alert = False
             finally:
-
                 if alert:
                     if random.random() < 0.5:
                         raise MissingDonutException("Homer's workday was interrupted by a donut craving!")
                 
+                    # Fixing the issue
                     print(f"{self.name} is still working hard at the plant...fixed the issue and moving on.")
                     alert = False
 

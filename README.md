@@ -7,11 +7,17 @@ $ python Homer.py
 ...
 
 Homer Simpson ... working  
+D'oh!  
 Homer Simpson ... working  
+Why you little!  
 Homer Simpson ... working  
+Mmm... donuts  
 Homer Simpson ... working  
+Woohoo!  
 Homer Simpson ... working  
+Woohoo!  
 Homer Simpson ... working  
+Why you little!   
 Homer Simpson noticed a safety hazard at the plant!  
 Traceback (most recent call last):  
   File "/home/PATH/Homer/Homer.py", line 47, in keepWorking  

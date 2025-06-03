@@ -14,15 +14,15 @@ Homer Simpson ... working
 Homer Simpson ... working  
 Homer Simpson noticed a safety hazard at the plant!  
 Traceback (most recent call last):  
-  File "/home/<PATH>/Homer/Homer.py", line 47, in keepWorking  
+  File "/home/PATH/Homer/Homer.py", line 47, in keepWorking  
     raise NuclearMeltdownException("Oh no!")  
 NuclearMeltdownException: Oh no!  
   
 During handling of the above exception, another exception occurred:  
   
 Traceback (most recent call last):  
-  File "/home/<PATH>//Homer/Homer.py", line 59, in <module>  
+  File "/home/PATH//Homer/Homer.py", line 59, in <module>  
     homer.keepWorking()  
-  File "/home/<PATH>//Homer/Homer.py", line 53, in keepWorking  
+  File "/home/PATH//Homer/Homer.py", line 53, in keepWorking  
     raise MissingDonutException("Homer's workday was interrupted by a donut craving!")  
 MissingDonutException: Homer's workday was interrupted by a donut craving!  
